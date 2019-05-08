@@ -1,0 +1,8 @@
+version: '2'
+services:
+  dynamodb:
+      build: .
+      volumes:
+        - ./data:/opt/dynamodb/data
+      ports:
+        - "8000:8000"

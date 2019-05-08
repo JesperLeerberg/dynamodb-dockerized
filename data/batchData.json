@@ -1,0 +1,58 @@
+{
+  "Cowboys": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "ea17d702-e653-4959-bddd-d6d0c8aa35a4"
+          },
+          "name": {
+            "S": "Arthur"
+          },
+          "surname": {
+            "S": "Morgan"
+          },
+          "married": {
+            "BOOL": false
+          },
+          "description": {
+            "S": "Lorem Ipsum"
+          },
+          "group": {
+            "S": "Cowboy"
+          },
+          "updatedAt": {
+            "S": "2018-07-16T19:20:30.45+01:00"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "bf08fc5e-8d0a-4b69-bf09-9d4a486a64c4 "
+          },
+          "name": {
+            "S": "Jack"
+          },
+          "surname": {
+            "S": "Marston"
+          },
+          "married": {
+            "BOOL": true
+          },
+          "description": {
+            "S": "Lorem Ipsum"
+          },
+          "group": {
+            "S": "Cowboy"
+          },
+          "updatedAt": {
+            "S": "2018-07-16T19:20:30.45+01:00"
+          }
+        }
+      }
+    }
+  ]
+}
