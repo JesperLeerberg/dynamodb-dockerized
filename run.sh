@@ -4,7 +4,7 @@
 set -m
 
 # Start the primary process and put it in the background
-java -jar /opt/dynamodb/DynamoDBLocal.jar  &
+java -jar /opt/dynamodb/DynamoDBLocal.jar -sharedDb &
 
 # Start the helper process
 if [ -d "/opt/dynamodb/data" ]; then
