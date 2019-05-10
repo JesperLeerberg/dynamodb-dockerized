@@ -21,4 +21,4 @@ COPY aws /root
 
 # Expose port 8000 to allow access via http://localhost:8000/shell/
 EXPOSE 8000
-CMD ["./run.sh"]
+ENTRYPOINT ["./run.sh"]

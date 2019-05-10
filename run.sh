@@ -9,7 +9,7 @@ java -jar /opt/dynamodb/DynamoDBLocal.jar -sharedDb &
 # Start the helper process
 if [ -d "/opt/dynamodb/data" ]; then
   echo "*************************************************************************"
-  echo "Data found. Preparing database by using awscli"
+  echo "Data found. Preparing database using the awscli"
   echo "*************************************************************************"
   sleep 2
   aws dynamodb create-table --cli-input-json file:///opt/dynamodb/data/table.json --endpoint-url http://localhost:8000
