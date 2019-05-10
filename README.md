@@ -1,5 +1,8 @@
 # Dynamodb-dockerized
 
+[![CircleCI](https://circleci.com/gh/leerberg/dynamodb-dockerized/tree/master.svg?style=shield)](https://circleci.com/gh/leerberg/dynamodb-dockerized/tree/master)
+[![Docker Hub Badge](http://dockeri.co/image/leerberg/dynamodb)](https://registry.hub.docker.com/u/leerberg/dynamodb/)
+
 ## WIP
 
 Dynamodb in docker - with preload functionality
