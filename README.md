@@ -8,24 +8,16 @@ Dynamodb in docker - with preload functionality
 
 ## Quick usage
 
-Without data
+##### Without data
 
 ```
 docker run -it -p 8000:8000 leerberg/dynamodb
 ```
 
-Usage with data
+##### Usage with data
 
 ```
 docker run -it -p 8000:8000 -v $(pwd)/data:/opt/dynamodb/data leerberg/dynamodb
-```
-
-##### Docker compose
-
-Clone repo
-
-```
-docker-compose up --build
 ```
 
 ## Dockerfile - Why not use the offical ?
@@ -68,3 +60,4 @@ Please fell free to contribute by making pull requests. Ensure the readme is upd
 
 - [ ] Craete template app using dynamodb as dependency and write an integration test
 - [ ] Add tests to the build pipeline to setup quality gates
+- [ ] Enable args being parsed to the DynamoDBLocal.jar file when the entrypoint is overwritten
