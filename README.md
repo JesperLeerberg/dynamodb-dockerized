@@ -17,7 +17,7 @@ docker run -it -p 8000:8000 leerberg/dynamodb
 ##### Usage with data
 
 ```
-docker run -it -p 8000:8000 -v $(pwd)/data:/opt/dynamodb/data leerberg/dynamodb
+docker run -it --rm -p 8000:8000 -v $(pwd)/data:/opt/dynamodb/data leerberg/dynamodb
 ```
 
 ## Dockerfile - Why not use the offical ?
