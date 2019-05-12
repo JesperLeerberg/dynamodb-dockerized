@@ -22,7 +22,7 @@ docker run -it -p 8000:8000 -v $(pwd)/data:/opt/dynamodb/data leerberg/dynamodb
 
 ## Dockerfile - Why not use the offical ?
 
-The offical [amazon dynamodb image](https://hub.docker.com/r/amazon/dynamodb-local/) is not very well documented and there are no link to the actual Dockfile. Based on the image size arround 201 MB is my assumption that it's based on a plain debian based java jdk image. This should be better and that's why I have created this image. Here are some of benifits of using this image.
+The offical [amazon dynamodb image](https://hub.docker.com/r/amazon/dynamodb-local/) is not very well documented and there is no link to the content of the Dockfile used. Based on the image size arround 201 MB is my assumption that it's based on a plain debian based java jdk image. This should be better and that's why I have created this image. Here are some of benifits of using this image.
 
 - Image size = 100 MB (Debian slim) half of the original !
 - Includes AWS cli (Great for debugging, with docker exec)
